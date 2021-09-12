@@ -1,0 +1,55 @@
+body{
+    background: radial-gradient(#653d84, #332042);
+}
+
+.container{
+    background: linear-gradient(-45deg, #dcd7e0, #fff);
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 160px;
+    display: flex;
+    overflow: hidden;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+
+.box h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold; 
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}

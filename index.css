@@ -1,0 +1,21 @@
+body{
+    background-image: url("bg2.png");
+}
+
+.nav a{
+    color: white;
+    font-size: 22px;
+}
+
+.container{
+    background: linear-gradient(-45deg, rgb(101, 61, 132, 0.5), rgb(138, 43, 226));
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 200px 280px;
+    display: flex;
+    overflow: hidden;
+}
+.container h1{
+    color:white;
+}
